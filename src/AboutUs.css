@@ -1,0 +1,106 @@
+.about-us {
+    font-family: 'Arial, sans-serif';
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+
+    color: rgb(14, 13, 13);
+  }
+  
+  .hero-image {
+    max-width: 900px;
+    padding-top: 50px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+  }
+  
+  .hero-text p {
+    font-size: 24px;
+  }
+  
+  .story,
+  .values,
+  .team,
+  .testimonials,
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .values-container,
+  .team-container,
+  .testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .value-item,
+  .team-member,
+  .testimonial,
+  .value-item:hover,
+  .team-member:hover,
+  .testimonial:hover {
+    flex: 1;
+    max-width: 300px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased elevation */
+    transition: box-shadow 0.3s ease-in-out; /* Transition for smoother effect */
+  }
+  
+  .value-item:hover,
+  .testimonial:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Adjusted elevation on hover */
+  }
+  
+  h2,
+  .testimonials h2,
+  .values h2,
+  .story h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .story p {
+    font-family: 'Montserrat, sans-serif';
+    font-size: 20px;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
+  .testimonial h4 {
+    margin-top: 10px;
+    font-weight: normal;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  

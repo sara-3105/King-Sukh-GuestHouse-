@@ -1,0 +1,141 @@
+/* src/App.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-image: url('Assests/Hotelnew.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    height: 800px;
+    text-align: center;
+  }
+  
+  h1 {
+     font-size: 1rem; 
+    margin-top: 90px;
+    color: black;
+    font-family: Playfair Display;
+    font-weight: 700;
+    
+  }
+  
+  /* Feature section styles */
+  .feature {
+    padding: 40px 0;
+    font-size: 3rem;
+  }
+  
+  .feature h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature ul {
+    list-style: none;
+  }
+  
+  .feature li {
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+  }
+  
+  .testimonial {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Responsive styles (adjust as needed) */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    /* File: src/App.css */
+
+/* Navigation Bar Styles */
+nav {
+    background-color: black; /* Background color */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline; /* Display list items horizontally */
+  }
+  
+  nav ul li a {
+    display: inline-block; /* Display anchor elements as blocks */
+    padding: 10px 20px; /* Add padding */
+    color: yellow; /* Text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  nav ul li a:hover {
+    background-color: #333; /* Change background color on hover */
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Adjust gap between items */
+    justify-content: space-between; /* Align items with space between */
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items vertically */
+    text-align: center; /* Center text */
+  }
+  
+  .feature .icon {
+    font-size: 24px;
+  }
+  
+  /* Adjust icon size as needed */
+  
+}
