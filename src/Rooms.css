@@ -1,0 +1,111 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Rooms.css */
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Title styles */
+.container p {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px; /* Keep the same size for good readability */
+    font-family: 'Merriweather', serif; /* Use Merriweather for a classy look */
+    /* font-weight: bold; Make the title stand out */
+    color: #333; /* Dark color for contrast */
+}
+
+/* Row styles */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Add gap for spacing between cards */
+    margin: 0 auto; /* Center the row */
+}
+
+/* Column styles */
+.col-md-4 {
+    flex: 1; /* Each column takes equal space */
+    max-width: calc(33.33% - 13.33px); /* Ensures three columns fit in a row with gap */
+    margin-bottom: 30px; /* Adds spacing between rows */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+/* Card styles */
+.card {
+    width: 100%; /* Take full width of the column */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.card img {
+    width: 100%; /* Ensures the image covers the card's width */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 20px; /* Adjusted font size for better balance */
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif; /* Use Merriweather for card titles */
+    font-weight: bold; /* Make the title stand out */
+    color: #333; /* Consistent dark color */
+}
+
+.card-text {
+    font-size: 14px; /* Adjusted font size for better readability */
+    color: #666;
+    font-weight: 60; /* Medium grey for body text */
+    font-family: 'Open Sans', sans-serif; /* Use Open Sans for body text */
+}
+
+/* Enhanced Book Now button */
+.book-now-button {
+    display: block;
+    width: 100%; /* Full width button */
+    padding: 12px; /* Slightly increased padding for a better look */
+    margin-top: 10px;
+    border: none; /* Remove default border */
+    background-color: #28a745; /* Vibrant green background */
+    color: white; /* White text */
+    font-family: 'Open Sans', sans-serif; /* Use Open Sans for buttons */
+    font-size: 16px; /* Adjusted font size for better balance */
+    font-weight: bold; /* Bold text */
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+}
+
+.book-now-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .col-md-4 {
+        max-width: calc(50% - 10px); /* Two in a row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        max-width: 100%; /* Full width on small screens */
+    }
+}

@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: left;
     align-items: center;
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
     position: sticky;
     top: 0;
 }
@@ -57,7 +57,7 @@ nav .menu {
 nav .menu span {
     height: 0.4rem;
     width: 100%;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 0.2rem;
 }
 

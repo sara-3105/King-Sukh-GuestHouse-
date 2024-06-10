@@ -37,26 +37,6 @@ function AboutUs() {
         </div>
       </section>
 
-      {/* Decorative Elements */}
-      <section className="decorations">
-        <h2>Decorative Elements</h2>
-        <div className="decorations-container">
-          {/* Add your decorative elements here */}
-          <div className="decoration-item">
-            <i className="fas fa-seedling"></i>
-            <p>Green Environment</p>
-          </div>
-          <div className="decoration-item">
-            <i className="fas fa-sun"></i>
-            <p>Sunshine</p>
-          </div>
-          <div className="decoration-item">
-            <i className="fas fa-swimming-pool"></i>
-            <p>Swimming Pool</p>
-          </div>
-        </div>
-      </section>
-
       <section className="testimonials">
         <h2>What Our Guests Say</h2>
         <div className="testimonial-container">
